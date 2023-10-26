@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset ="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+    <title>Personal Portfoli Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35e9afc0ed.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <div id="header">
+    <div class="container">
+      <nav>
+       <img src ="IMAGES/logo-transparent-png.png" class="logo" >
+       <ul id="sidemenu">
+        <li><a href="#header">Home </a></li>
+        <li><a href="#about">About </a></li>
+        <li><a href="#skillsdiv">Skills </a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#contact">Contact </a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()" style="color: #ffffff;"></i>
+       </ul>
+       <i class="fa-solid fa-bars"onclick="openmenu()" style="color: #ffffff;"></i>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi, I'm <span>ANUSREE</span><br></h1>
+      </div>
+    </div>
+  </div>
+  <!------------about------->
+  <div id ="about">
+    <div class="container">
+      <div class="row">
+        </div>
+        <div id="about-col">
+        <div class="about-col-1">
+          <h1 class="sub-title">About Me</h1>
+          <P>Dedicated software developer with a strong background in designing, coding and passion for developing
+            innovative solutions, seeking a challenging role in n a dynamic organization where I can apply my technical skills to drive technological
+            advancements and contribute to the company’s growth.</P>
+          </div>
+          </div>
+          <div class="about-col-2">
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('Achievements')">Achievements</p>
+            <p class="tab-links"onclick="opentab('Additional certification')">Additional Certification</p>
+            <p class="tab-links"onclick="opentab('education')">Eductional Details</p>
+            <p class="tab-links"onclick="opentab('interests')">Interests</p>
+            <p class="tab-links"onclick="opentab('languages')">Languages Known</p>
+          </div>
+          <div class="tab-contents active-tabs" id="Achievements">
+            <ul>
+              <li><span>pi-Hack</span><br>Runner-up at 24 hrs hackathon pi-Hack held at GECI</li>
+              <li><span>NPTEL</span><br>Completed NPTEL java Mooc course by IIT- Karanghpur</li>
+              <li><span>Internship</span><br>Completed internship on Data Science and MachineLearning</li>
+             
+            </ul>
+          </div>
+          <div class="tab-contents active-tabs" id="Additional certification">
+            <ul>
+              <li><span>Asap</span><br>UI/UX Desining course Completed</li>
+              <li><span>NSS</span><br>Served as NSS Volunteer at GECI<br>(2021-2023)</li>
+            
+            </ul>
+          </div>
+        
+          <div class="tab-contents"id="education">
+            <ul>
+              <li><span>Computer Science Engineering </span><br>Government Engineering College Idukki<br>(2020-2024)</li>
+              <li><span>Higher Secondary Education</span><br>Mambaram Higher Secondary School<br>(2018-2020)</li>
+              
+            </ul>
+          </div>
+          <div class="tab-contents"id="interests">
+            <ul>
+              <li><span>Dance</span><br>More intersted on western dance</li>
+              <li><span>Travelling</span><br>I love to explore the world</li>
+            </ul>
+          </div>
+          <div class="tab-contents"id="languages">
+            <ul>
+              <li><span>English</span><br>Professional proficency</li>
+              <li><span>Malayalam</span><br>Native proficency</li>
+              <li><span>Hindhi</span><br>Native proficency</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------skills--------->
+<div id="skillsdiv">
+  <div class="p-div">
+    <h1 class="heading">Skills</h1>
+</div>
+<div class="skills-div">
+    <div class="skills">
+        <div class="skills-header">
+            <p>Technical Skills</p>
+        </div>
+        <div class="skill-icons">
+            <div class="skill">
+                <img src="images/c.png" alt="C Programming">
+                <span class="label">C Programming</span>
+            </div>
+            <div class="skill">
+                <img src="images/css.png" alt="CSS">
+                <span class="label">CSS</span>
+            </div>
+            <div class="skill">
+                <img src="images/html.png" alt="HTML">
+                <span class="label">HTML</span>
+            </div>
+            <div class="skill">
+                <img src="images/js.png" alt="JavaScript">
+                <span class="label">JavaScript</span>
+            </div>
+            <div class="skill">
+                <img src="images/python.jpg" alt="Python">
+                <span class="label">Python</span>
+            </div>
+            <div class="skill">
+                <img src="images/java.png" alt="Java">
+                <span class="label">Java</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="skills">
+        <div class="skills-header">
+            <p>Design Skills</p>
+        </div>
+        <div class="skill-icons">
+            <div class="skill">
+                <img src="images/figma.png" alt="C Programming">
+                <span class="label">Figma</span>
+            </div>
+            <div class="skill">
+                <img src="images/xd.png" alt="CSS">
+                <span class="label">Adobe Xd</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="skills">
+        <div class="skills-header">
+            <p>Soft Skills</p>
+        </div>
+        <div class="skill-icons">
+            <div class="skill">
+                <img src="images/speaking.jpg" alt="C Programming">
+                <span class="label">Speaking</span>
+            </div>
+            <div class="skill">
+                <img src="images/drawing.jpg" alt="CSS">
+                <span class="label">Drawing</span>
+            </div>
+            <div class="skill">
+                <img src="images/presentation.jpg" alt="HTML">
+                <span class="label">presentation</span>
+            </div>
+            <div class="skill">
+                <img src="images/listening.jpg" alt="JavaScript">
+                <span class="label">listening</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+<!--------------------projects-->
+<div id="Projects">
+  <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="projectsnew-list">
+      <div class="projectsnew">
+        <img src="IMAGES/resize-1684905394579139117android.jpg">
+        <div class="layer">
+          <h3>Mental Health Care APP</h3>
+          <p>Got Second Position 24 Hrs Hackaton pi hack conducted by GECI.An andriod app which was made for mentally depressed people.</p>
+        </div>
+      </div>
+      <div class="projectsnew">
+        <img src="IMAGES/resize-16849054111399719867imageprocessing2.jpg">
+        <div class="layer">
+          <h3>PEDOX</h3>
+          <p>A pedestrain dectection tool using image processing .Identifying the pedestrians who are crossing the road and there by changing the traffic light accordingly.Developed as a part of mini-project.</p>
+        </div>
+      </div>
+      <div class="projectsnew">
+        <img src="IMAGES/resize-16849056091688072438collegeerpResearchAnalyticalTechinques.jpg">
+        <div class="layer">
+          <h3>College Management System</h3>
+          <p>A DBMS project that is made as a part of DBMS lab project.A system usefull of college students as well as faculties.</p>
+        </div>
+      </div>
+      <div class="projectsnew">
+        <img src="IMAGES/iot3.jpg">
+        <div class="layer">
+          <h3>AbilityCraft</h3>
+          <p>A gaming app based on IoT for helping mentally abled children.</p>
+        </div>
+      </div>
+  </div>
+  <div><a href="https://github.com/anusreev22" class="btn">See more</a></div>
+</div>
+<!-----------contact-->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane" style="color: #eff0f0;"></i>anusreev22@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i>9778204873</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #f910e6;"></i></a>
+          <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin" style="color: #019af9;"></i></a>
+          <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="IMAGES/resume.pdf"class="btn btn2">Download resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name"  placeholder ="your Name"  required>
+          <input type="email" name="Email" placeholder ="your Email"  required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id ="msg"></span>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tabs")
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tabs");
+    }
+  </script>
+  <script> var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right= "0";
+    }
+    function closemenu(){
+      sidemenu.style.right="-200px";
+    }
+  </script>
+  <script>
+        
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyWrkogHy-kbgURdtGvIOYNHjhq5u19YQPJE-HMCTEnjkfFY8eWX_XYnoRYSB4vP9Ew/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully!!!"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+  </body>
+</html>
