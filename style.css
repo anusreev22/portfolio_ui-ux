@@ -14,7 +14,7 @@ body{
 #header{
   width: 50; 
   height: 100;
-  background-image: url(IMAGES/Web\ 1920\ –\ 1.png);
+  background-image: url(IMAGES/web.png);
    background-size:cover; 
    background-position:center;
 }
@@ -31,6 +31,7 @@ nav{
 {
   width:200px;
 }
+
 nav ul li{
   display: inline-block;
   list-style: none;
@@ -73,6 +74,11 @@ nav ul li a:hover::after{
   padding:80px 0;
   color:#ababab;
 
+
+}
+
+.about-col-1:hover {
+  background-color: #3b3be9; /*hover color for about me change the color code if u want any changes */
 }
 .row{
   display:flex;
@@ -161,7 +167,7 @@ nav ul li a:hover::after{
 .p-div {
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding: 10px 10%;
 }
 
 .skills-div {
@@ -204,7 +210,7 @@ nav ul li a:hover::after{
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  background-color: #e487fe; 
+  /* background-color: #e487fe;  */
   text-decoration-color: #000;
   padding: 10px; 
 }
@@ -307,7 +313,6 @@ nav ul li a:hover::after{
 .btn:hover{
   background: #ea3af4;
 }
-/*-------------contact---*/
 .contact-left{
   flex-basis: 35%;
 }
@@ -363,9 +368,9 @@ from .btn2{
   padding: 14px 60px;
   font-size: 18px;
   margin-top: 20px;
-  cusor:pointer;
+  cursor:pointer;
 }
-/*--------CSS FOR SMALL SCREENS------*/
+/* css for small screen*/
 nav .fa-solid{
   display: none;
 }
@@ -444,7 +449,7 @@ nav .fav-sharp{
     display: inline-block;
   }
   .skill{
-    display: inline;
+    display: inline-block;
     height: 10px;
     font-size: 10px;
   }
@@ -472,4 +477,10 @@ nav .fav-sharp{
   color:#61b752;
   margin-top: -40px;
   display: block;
+}
+
+.heading{
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
 }
